@@ -1,0 +1,9 @@
+As the "endgame" realm and activities of Final Fantasy XI and my Linkshell, CrimsonToothBrush, grew, the leadership started to run into several management issues.  Since we didn't use a usual point/DKP system for distributing gear from our events, we simply used our phpBB forum to have our members create "wishlists" and distributed gear from those posts.  Furthermore, "pop items" to run said events were handled in much the same way.
+
+Problems soon arose from this organization.  It became increasingly difficult to search through posts to find out who wanted what gear and which pop items were on hand for events.
+
+The CTB Tool Suite was my solution to this logistical nightmare.  Using PHP and mySQL, I created basic forms and database support to organize all of our information.  From there, searches were added to allow for quick access to needed information.  As time went on, I added more applications that allowed for even more information to be stored, such as character information, Linkshell bank account balance, public attendance listing, and much more.
+
+Originally the CTB Tool Suite was on it's own standalone site and after some time, didn't fully meet my vision for what it should be.  Therefore, I began to fully integrate the CTB Tool Suite into our phpBB3 forum, allowing me to take advantage of the login/cookie systems already in place, as well as allowing our members to find all needed information in one spot.
+
+Still a work in progress, the end goal is two fold.  First, create a complete tool suite that allows for a robust amount of information that is easy to store, edit, and access.  Second, create the CTB Tool Suite in such a way that allows for easy addition of new content, changes in Linkshell rules, and even easy adaptation to Final Fantasy XIV.
